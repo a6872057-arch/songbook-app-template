@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "歌本 App 範本",
+    "slug": "songbook-app-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.songbooktemplate"
+    },
+    "android": {
+      "package": "com.example.songbooktemplate",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
